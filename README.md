@@ -1,8 +1,10 @@
+
+
 # Youdaodict
 
 Translates the selected text into a tooltip automatically. 
 
-Inspired by Google Translation Tooltip. The data come from the honored [Youdao](http://fanyi.youdao.com/).
+Inspired by Google Translation Tooltip. The data originally came from the honored [Youdao](http://fanyi.youdao.com/). However, due to issues with the Youdao translation API, it has now been adjusted to use the Jīnshān Cíbà (金山词霸) API for data retrieval.
 
 ## Screenshot
 
@@ -20,20 +22,23 @@ Inspired by Google Translation Tooltip. The data come from the honored [Youdao](
 
 Script is enabled by default. you can change:
 
-    var toggle = true;
+```javascript
+var toggle = true;
+```
 
 to:
 
-    var toggle = false;
+```javascript
+var toggle = false;
+```
 
-to disabled this script initially.
+to disable this script initially.
 
 Using <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>q</kbd> to enable/disable this script.
 
-
 ## Why
 
-The main reason is: Google translation tooltip can't work properly in China.
+The main reason is: Google translation tooltip can't work properly in China. Additionally, the Youdao translation API also faced some issues, leading to the switch to the Jīnshān Cíbà API to ensure stable functionality.
 
 [More info on this article(in Chinese)](http://www.jianshu.com/p/b984d149ee48)
 
@@ -43,3 +48,8 @@ The main reason is: Google translation tooltip can't work properly in China.
 
 - <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>q</kbd> to disable/enable this script.
 
+### 20250409
+
+- Due to issues with the Youdao translation API, the data source has been switched to the Jīnshān Cíbà API to ensure better performance and reliability.
+
+---
