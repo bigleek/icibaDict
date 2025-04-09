@@ -8,7 +8,7 @@
 // @description    Translate any text selected into a tooltip
 // @description:zh-cn    一个可以在浏览器中自由使用的屏幕取词脚本
 // @include        *
-// @require  https://github.com/bigleek/icibaDict/raw/refs/heads/master/youdaodict.user.js
+// @require  https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // @grant          GM_xmlhttpRequest
 // @grant          GM.xmlHttpRequest
 // @license MIT
